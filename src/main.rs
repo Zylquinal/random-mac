@@ -229,8 +229,8 @@ fn main() {
 }
 
 fn build_cli() -> clap::Command {
-    clap::Command::new("randommac")
-        .bin_name("randommac")
+    clap::Command::new("random-mac")
+        .bin_name("random-mac")
         .subcommand_required(true)
         .subcommand(
             clap::command!("update")
